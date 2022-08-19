@@ -3,8 +3,8 @@
 
 
 @font-face {
-	font-family: 'OPPOSansR';   /*字体名称*/
-	src: url('../webfonts/OPPOSans-R.ttf');       /*字体源文件*/
+	font-family: 'MiSans Regular';   /*字体名称*/
+	src: url('../webfonts/MiSans-Regular.subset.woff2');       /*字体源文件*/
   }
  
 /*
@@ -29,7 +29,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	/* vertical-align: baseline; */
+	}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -106,7 +107,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(36, 36, 36, 0.8), rgba(26, 26, 26, 0.6)), url("../../images/bg.jpg");
+		background-image: linear-gradient(to top, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.55)), url("../../images/bg.jpg");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -129,8 +130,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
-		font-family: "OPPOSansR", OPPOSansR, sans-serif;
+		color: #22262D;
+		font-family: "MiSans Regular", MiSans Regular, sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -182,20 +183,20 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: #22262D;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important;
+			color: #22262D !important;
 		}
 
 		a.special:not(.button) {
 			text-decoration: none;
 			border-bottom: 0;
 			display: block;
-			font-family: "OPPOSansR", OPPOSansR, sans-serif;
+			font-family: "MiSans Regular", MiSans Regular, sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
@@ -244,7 +245,7 @@ input, select, textarea {
 			}
 
 	strong, b {
-		color: #ffffff;
+		color: #22262D;
 		font-weight: 600;
 	}
 
@@ -257,8 +258,8 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
-		font-family: "OPPOSansR", OPPOSansR, sans-serif;
+		color: #22262D;
+		font-family: "MiSans Regular", MiSans Regular, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -2171,9 +2172,9 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #22262D;
 		display: block;
-		font-family: "OPPOSansR", OPPOSansR, sans-serif;
+		font-family: "MiSans Regular", MiSans Regular, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2232,7 +2233,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #ffffff;
+			color: #22262D;
 			background: #2e3141;
 		}
 
@@ -2272,11 +2273,11 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #ffffff;
+			color: #22262D;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-family: "OPPOSansR", OPPOSansR, sans-serif;
+			font-family: "MiSans Regular", MiSans Regular, sans-serif;
 			text-transform: none;
 			letter-spacing: 0;
 			font-weight: 300;
@@ -2318,8 +2319,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #ffffff;
-			border-color: #ffffff;
+			background: #22262D;
+			border-color: #22262D;
 			content: '\f00c';
 			color: #2e3141;
 		}
@@ -2813,7 +2814,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #ffffff;
+			color: #22262D;
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2876,7 +2877,7 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "OPPOSansR", OPPOSansR, sans-serif;
+		font-family: "MiSans Regular", MiSans Regular, sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3.75em;
@@ -3082,7 +3083,8 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(0, 0, 0, 0.2);
+		background-color: rgb(255 255 255 / 70%);
+		backdrop-filter: blur(15px);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3110,7 +3112,7 @@ input, select, textarea {
 			}
 
 		#header nav {
-			font-family: "OPPOSansR", OPPOSansR, sans-serif;
+			font-family: "MiSans Regular", MiSans Regular, sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
 			height: 3em;
@@ -3333,7 +3335,7 @@ input, select, textarea {
 					border-radius: 5px;
 					border: 0;
 					display: block;
-					font-family: "OPPOSansR", OPPOSansR, sans-serif;
+					font-family: "MiSans Regular", MiSans Regular, sans-serif;
 					font-size: 0.8em;
 					font-weight: 200;
 					letter-spacing: 0.1em;
@@ -3459,7 +3461,7 @@ input, select, textarea {
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			font-family: "OPPOSansR", OPPOSansR, sans-serif;
+			font-family: "MiSans Regular", MiSans Regular, sans-serif;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -3470,9 +3472,9 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 5em 0 8.25em 0 ;
+				padding: 5em 0 8.25em 0;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(31, 31, 31, 0.8), rgba(12, 12, 12, 0.8)), url("../../images/bg.jpg");
+				background-image: linear-gradient(to top, rgb(198 181 225 / 80%), rgb(36 34 38 / 80%)), url(../../images/bg.jpg);
 				background-size: auto,
  cover;
 				background-position: center,
@@ -3571,7 +3573,7 @@ input, select, textarea {
 		}
 
 		#wrapper > header p {
-			font-family: "OPPOSansR", OPPOSansR, sans-serif;
+			font-family: "MiSans Regular", MiSans Regular, sans-serif;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -3584,7 +3586,7 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(10, 10, 10, 0.8), rgba(41, 41, 41, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 254, 254, 0.8)), url("../../images/bg.jpg");
 			background-size: auto,
  cover;
 			background-position: center,
@@ -3631,7 +3633,7 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color: rgba(0, 0, 0, 0.2);
+		background-color: rgb(255 255 255 / 20%);
 		margin: 3em 0;
 		position: relative;
 	}
@@ -3759,16 +3761,16 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight .image {
-				border-radius: 100%;
+				border-radius: 0%;
 				margin: 0 3em 2em 0;
 				width: 22em;
 				overflow: hidden;
 				-ms-flex: 1;
 			}
-
 				.wrapper.spotlight .image img {
-					border-radius: 100%;
-					width: 100%;
+					border-radius: 0%;
+					/* image 圆角*/
+					width: 80%;
 				}
 
 			.wrapper.spotlight .content {
