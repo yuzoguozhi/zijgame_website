@@ -353,7 +353,7 @@ input, select, textarea {
 	}
 
 	zijgame-logo {
-		font-family: "Novecento Wide Bold", monospace;
+		font-family: "Novecento Wide Bold", sans-serif;
 		font-size: 0.825em;
 		margin: 0 0.15em;
 		padding: 0.25em 0.65em;
