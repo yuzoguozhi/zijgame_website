@@ -3103,7 +3103,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
 		background-color: rgb(255 255 255 / 70%);
-		backdrop-filter: blur(15px);
+		backdrop-filter: saturate(160%) blur(20px);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
