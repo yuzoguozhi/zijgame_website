@@ -207,7 +207,7 @@ input, select, textarea {
 			border-bottom: 0;
 			display: block;
 			font-family: "MiSans Regular", MiSans Regular, sans-serif;
-			font-size: 0.8em;
+			font-size: 1.1em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
 			margin: 0 0 2em 0;
@@ -265,6 +265,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-size: 1.1em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3356,11 +3357,11 @@ input, select, textarea {
 					border: 0;
 					display: block;
 					font-family: "MiSans Regular", MiSans Regular, sans-serif;
-					font-size: 0.8em;
+					font-size: 1em;
 					font-weight: 200;
 					letter-spacing: 0.1em;
-					line-height: 1.85em;
-					padding: 0.75em 0;
+					line-height: 1.5em;
+					padding: 0.95em 0;
 					text-transform: uppercase;
 				}
 
@@ -3642,11 +3643,11 @@ input, select, textarea {
 		}
 
 			#wrapper > header h2 {
-				font-size: 1.6em;
+				font-size: 2em;
 			}
 
 			#wrapper > header p {
-				font-size: 0.8em;
+				font-size: 1.1em;
 			}
 
 	}
